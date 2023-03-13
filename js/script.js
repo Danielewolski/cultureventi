@@ -21,18 +21,21 @@ $(document).ready(function(){
     });
 });
 
-// window.onload = function() {
+window.onload = function() {
                 
-//     if (window.innerWidth >= 900) {
-//         false;
-//     } else {
-//         true;
-//     }
-//     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == true) {
-//         true;
-//     }
+    if (window.innerWidth >= 900) {
+        document.getElementById("mobile").style.display = "none";
+        document.getElementById("notMobile").style.display = "hidden";
+    } else {
+        document.getElementById("mobile").style.display = "hidden";
+        document.getElementById("notMobile").style.display = "none";
+    }
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == true) {
+        document.getElementById("mobile").style.display = "hidden";
+        document.getElementById("notMobile").style.display = "none";
+    }
 
-// };
+};
 
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
