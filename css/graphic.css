@@ -1,6 +1,6 @@
 h2{
     text-align: center;
-    padding: 0 0 20px;
+    padding: 10px 0 20px;
     font-family: sans-serif;
     font-size: 42px;
     font-weight: 700;
@@ -8,18 +8,6 @@ h2{
 
 .clipImg{
     clip-path: polygon(92% 9%, 81% 56%, 84% 69%, 21% 80%, 0 37%, 26% 0);
-}
-
-.clipImg2{
-    clip-path: polygon(75% 0, 77% 20%, 100% 49%, 94% 100%, 54% 74%, 16% 80%, 0 31%);
-}
-
-.clipImg3{
-    clip-path: polygon(3% 21%, 1% 0, 82% 0, 100% 51%, 90% 80%, 16% 100%, 21% 50%);
-}
-
-.clipImg4{
-    clip-path: polygon(0 0, 57% 0, 100% 0, 100% 72%, 64% 91%, 0 100%, 22% 50%);
 }
 
 .footer {
