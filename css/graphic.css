@@ -1,3 +1,22 @@
+/* .active{
+    visibility: visible;
+    position: absolute;
+}
+
+.inactive{
+    visibility: hidden;
+} */
+
+/* @media screen and (min-width: 400px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+} */
+
+
+
 .clipImg{
     clip-path: polygon(92% 9%, 81% 56%, 84% 69%, 21% 80%, 0 37%, 26% 0);
 }
@@ -26,10 +45,10 @@
     border-color: rgba(255,255,255,0.6);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .clipImg {
-        width: 200px !important;
-        margin-top: 130px;
+        width: 150px !important;
+        margin-top: 200px;
     }
 }
   

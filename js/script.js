@@ -10,26 +10,29 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 768,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 2,
             }
         },{
             breakpoint: 520,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 2
             }
         }]
     });
 });
 
-// window.onload = function() {
-                
+// window.onload = function() {                
 //     if (window.innerWidth >= 900) {
-//         false;
+//         $("#notMobile").addClass("active");
+//         $("#mobile").addClass("inactive");
 //     } else {
-//         true;
+//         $("#mobile").addClass("active");
+//         $("#notMobile").addClass("inactive");
 //     }
 //     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == true) {
-//         true;
+//         $("#mobile").addClass("active");
+//         $("#notMobile").addClass("inactive");
+
 //     }
 
 // };
