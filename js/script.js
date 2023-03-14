@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.partners-logos').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
+        infinite: true,
         autoplay: true,
         autoplaySpeed: 1500,
         arrows: false,

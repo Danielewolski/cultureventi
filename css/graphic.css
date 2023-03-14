@@ -1,21 +1,10 @@
-/* .active{
-    visibility: visible;
-    position: absolute;
+h2{
+    text-align: center;
+    padding: 60px 0 20px;
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 700;
 }
-
-.inactive{
-    visibility: hidden;
-} */
-
-/* @media screen and (min-width: 400px) {
-
-}
-
-@media screen and (max-width: 600px) {
-
-} */
-
-
 
 .clipImg{
     clip-path: polygon(92% 9%, 81% 56%, 84% 69%, 21% 80%, 0 37%, 26% 0);
@@ -81,7 +70,7 @@
 
 /* Slider */
 
-h2 {
+.hPartners{
     text-align: center;
     padding: 60px 0 40px;
     font-family: sans-serif;
